@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;  
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    padding: 10px 100px;
+}
+.logo{
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 60px;
+    height: 50px;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color:black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 2px 5px ;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.navigation a:active{
+    color: black;
+}
+section{
+    padding: 200px 100px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background: url(photographer3.jpg) no-repeat;*/
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(photographer3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+.main h2{
+    color: white;
+    font-weight: 500;
+   
+}
+.main h3{
+    color:rgb(230, 209, 209);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.main-btn{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background-color:black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 2px 10px;
+    margin-bottom: 30px;
+}
+.main-btn:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.social-icons{
+    margin-left: 10px;
+}
+.social-icons a{
+    font-size: 30px;
+    color: white;
+    margin-right: 30px;
+    border-radius: 20%;
+}
+.project{
+    background-color:black;
+}  
+.project h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contents{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cards{
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+}
+.cards:hover{
+    transform: scale(1.05);
+}
+.icon-cards{
+    font-size: 70px;
+    text-align: center;
+}
+.content h3{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 15px;
+}
